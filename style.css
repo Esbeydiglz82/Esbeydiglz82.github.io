@@ -1,24 +1,25 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f5ef;
-    color: #2e3d32;
+    background-color: #faf7f0;
+    color: #41483d;
     text-align: center;
 }
 
 header {
-    background-color: #c9dfbe;
+    background-color: #d6dec8;
     padding: 30px;
 }
 
 h1 {
     font-family: Georgia, serif;
     margin-bottom: 10px;
-    color: #2e3d32;
+    color: #3f4d3b;
 }
 
 header p {
     margin: 0;
+    color: #4b5746;
 }
 
 main {
@@ -33,7 +34,7 @@ section {
 h2 {
     font-family: Georgia, serif;
     font-size: 32px;
-    color: #365941;
+    color: #5f7350;
     margin-bottom: 25px;
 }
 
@@ -47,15 +48,15 @@ section p {
 }
 
 .project {
-    background-color: white;
+    background-color: #fffdf8;
     padding: 25px;
     margin-bottom: 25px;
-    border: 1px solid #d7e3d2;
+    border: 1px solid #d9dfcf;
     border-radius: 8px;
 }
 
 .project h3 {
-    color: #365941;
+    color: #5f7350;
     margin-top: 0;
 }
 
@@ -68,7 +69,7 @@ section p {
 
 .project a {
     display: inline-block;
-    background-color: #365941;
+    background-color: #5f7350;
     color: white;
     padding: 12px 20px;
     margin-top: 10px;
@@ -77,11 +78,11 @@ section p {
 }
 
 .project a:hover {
-    background-color: #49664f;
+    background-color: #748664;
 }
 
 footer {
-    background-color: #c9dfbe;
+    background-color: #d6dec8;
     padding: 15px;
-    color: #2e3d32;
+    color: #3f4d3b;
 }
