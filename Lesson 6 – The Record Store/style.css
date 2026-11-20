@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #eee5d5;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #d5c5ab;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: black;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px;
+}
+
+/* Featured records */
+.featured-albums {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 40px;
+}
+
+.album {
+    position: relative;
+    top: 0;
+    width: 180px;
+    height: 310px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #eee5d5;
+    border: 1px solid #777777;
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.album:hover {
+    top: 15px;
+    transform: scale(1.1, 1.1);
+}
+
+/* Inventory table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #777777;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d5c5ab;
+}
+
+tr:nth-child(even) {
+    background-color: #eee5d5;
+}
+
+/* Footer */
+footer {
+    background-color: #eee5d5;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

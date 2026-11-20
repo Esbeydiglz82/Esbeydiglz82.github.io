@@ -1,0 +1,171 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #faf7f0;
+   color: #222222;
+   margin: 0;
+}
+
+header {
+   background-color: #234b38;
+   color: white;
+   text-align: center;
+   padding: 30px 20px;
+   border-bottom: 6px solid #a83c36;
+}
+
+header h1 {
+   font-family: Georgia, serif;
+   font-size: 3rem;
+   margin: 10px 0;
+}
+
+header p {
+   margin: 8px 0;
+}
+
+.tagline {
+   font-size: 0.9rem;
+}
+
+main {
+   padding: 25px;
+}
+
+h2 {
+   font-family: Georgia, serif;
+   color: #234b38;
+}
+
+h3 {
+   color: #a83c36;
+   margin-top: 0;
+}
+
+p {
+   line-height: 1.6;
+}
+
+.menu > h2,
+.introduction {
+   text-align: center;
+}
+
+.menu-gallery {
+   display: flex;
+   flex-direction: column;
+}
+
+.menu-item {
+   background-color: white;
+   border: 1px solid #ddd5c8;
+   border-top: 4px solid #a83c36;
+   border-radius: 8px;
+   padding: 15px;
+   margin: 15px 0;
+}
+
+.menu-item img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.description {
+   padding-top: 15px;
+}
+
+.directions {
+   max-width: 450px;
+   margin: 0 auto;
+}
+
+.directions img {
+   width: 100%;
+   max-width: 320px;
+   border: 2px solid #234b38;
+}
+
+footer {
+   background-color: #234b38;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+footer h2,
+footer a {
+   color: white;
+}
+
+footer a:hover {
+   color: #f0d6bc;
+}
+
+header,
+.menu,
+footer {
+   display: none;
+}
+
+@media screen and (min-width: 600px) {
+   header,
+   .menu,
+   footer {
+      display: block;
+   }
+
+   .directions,
+   .location {
+      display: none;
+   }
+
+   .menu-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .menu-item img {
+      width: 180px;
+   }
+
+   .description {
+      margin-left: 20px;
+      padding-top: 0;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   main {
+      max-width: 1200px;
+      margin: 0 auto;
+   }
+
+   .menu-gallery {
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .menu-item {
+      display: block;
+      width: 28%;
+   }
+
+   .menu-item img {
+      width: 100%;
+   }
+
+   .description {
+      margin-left: 0;
+      padding-top: 15px;
+   }
+
+   .location {
+      display: block;
+   }
+}
+@media screen and (min-width: 1000px) {
+   .menu-item img {
+      height: 300px;
+      object-fit: cover;
+   }
+}

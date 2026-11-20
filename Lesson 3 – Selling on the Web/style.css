@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: darkgreen;
+}
+
+img {
+    border: 3px solid darkgreen;
+    width: 300px;
+}
+
+#featured {
+    background-color: white;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customize Your Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="greeting">Hello User!</h1>
+    <p id="message">Welcome! Customize your page below.</p>
+
+    <h2>Customize Your Page</h2>
+
+    <label for="userName">Enter your name:</label>
+    <br>
+    <input type="text" id="userName">
+    <br><br>
+
+    <label for="userMessage">Enter a brief message:</label>
+    <br>
+    <input type="text" id="userMessage">
+    <br><br>
+
+    <label for="backgroundColor">Choose a background color:</label>
+    <br>
+    <select id="backgroundColor">
+        <option value="white">White</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="lightyellow">Light Yellow</option>
+        <option value="lavender">Lavender</option>
+    </select>
+    <br><br>
+
+    <input type="button" value="Submit Changes" onclick="updatePage();">
+
+    <h2>To-Do List</h2>
+
+    <label for="taskInput">Enter a task:</label>
+    <br>
+    <input type="text" id="taskInput">
+    <input type="button" value="Add Task" onclick="addTask();">
+
+    <ol id="taskList"></ol>
+
+    <script src="script.js"></script>
+</body>
+</html>
